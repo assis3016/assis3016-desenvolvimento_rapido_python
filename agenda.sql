@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS public."AGENDA" (
+    id SERIAL PRIMARY KEY,
+    nome TEXT NOT NULL,
+    telefone CHAR(12) NOT NULL
+);
